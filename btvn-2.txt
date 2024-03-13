@@ -1,2 +1,2 @@
-dung: new
+dung: fix
 dang: learning
