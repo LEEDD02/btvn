@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Dang Le">
+        <meta name="description" content="Dang's contact">
+        <title>Dang's contact</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<body>
+    <header>
+        <h1>Do you wanna make friend with me?</h1>
+        <nav>
+            <ul>    
+                <li>
+                    <a href="index.html">About <abbr title="Introduce About Myself">Me</abbr></a>
+                </li>
+                <li>
+                    <a href="#Skills">My <abbr title="All skills of Dang Le">Skills </abbr></a>
+                </li>
+                <li>
+                    <a href="schedule.html">My <abbr title="Shedule Of Dang Le in a week">Shedule </abbr></a>
+                </li>
+                <li>
+                    <a href="dang'scontact.html">My <abbr title="Do you wanna be my friend?">Contact </abbr></a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="img/Untitled-1.png" alt="Dangle's Profile picture" title="Click on my face" usemap="#FaceID" width="400" height="400">
+            <map name="FaceID">
+                <area shape="rect" coords="210,90,290,200" href="index.html" alt="Me">
+            </map>
+            <figcaption>
+                <em>Click on my face</em>
+            </figcaption>
+        </figure>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>Contact Me</h2>
+        <form action="">
+            <fieldset>
+                <legend>Send Me A Message</legend>
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="Email" id="Email" placeholder="Your Email" required>
+                </p>
+                <p>
+                    <label for="YourHobby">Your Hobby</label>
+                    <input type="text" name="Hobby" id="Hobby" list="Hobby List">
+                    <datalist id="Hobby List">
+                        <option value="Listen to music">
+                        <option value="Read book">
+                        <option value="Watch TV">
+                        <option value="Play sport">
+                        <option value="Others">
+                    </datalist>
+                        
+                </p>
+                <p>
+                    <label for="Message">Message</label>
+                    <br>
+                    <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                </p>
+
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <section>
+            <h2>My Address</h2>
+            <address> 1194 Duong Lang, Dong Da, Ha Noi</address>
+        </section>
+        <hr>
+        <a href="#">Back to top</a>
+
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; Dangle' First Website</p>
+    </footer>
+</body>
+
+</html>
